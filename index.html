@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+    <title>COVID-19 visualization</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <small>COVID - 19</small>
+            <h1 id="date">yyyy-mm-dd</h1>
+            <ul id="left">
+                <li>infected</li>
+                <li id="cases" style="color: red;"><strong>0</strong></li>
+            </ul>
+            <ul id="right">
+                <li>dead</li>
+                <li id="deaths" style="color: black;"><strong>0</strong></li>
+            </ul>
+        </div>
+        <p style="position: absolute;bottom: 0;">Made with API by Mathdroid at https://github.com/mathdroid/covid-19-api.</p>
+    </div>
+</body>
+</html>
